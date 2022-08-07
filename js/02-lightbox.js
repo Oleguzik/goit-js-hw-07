@@ -13,5 +13,5 @@ function createImageGridMarkup({ preview, original, description } = {}) {
 }
 
 ;(function () {
-  let $gallery = new SimpleLightbox('.gallery a', { captionDelay: 250 })
+  var $gallery = new SimpleLightbox('.gallery a', { captionDelay: 250 })
 })()
